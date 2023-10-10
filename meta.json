@@ -4,7 +4,38 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "AdMob Interstitial",
+                            "translatedName": "AdMob Interstitial",
+                            "isApi": true,
+                            "reactType": "AdMobInterstitial",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-3940256099942544/1033173712",
+                                "AdUnitID_iOS": "ca-app-pub-3940256099942544/1033173712",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "dcaf2e1a-845f-465d-a095-a2c9c7d0bee2",
+                            "thunkableVersion": 423,
+                            "name": "AdMob_Interstitial1"
+                        },
+                        {
+                            "type": "AdMob Rewarded Video",
+                            "translatedName": "AdMob Rewarded Video",
+                            "isApi": true,
+                            "reactType": "AdMobRewarded",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-3940256099942544/5224354917",
+                                "AdUnitID_iOS": "ca-app-pub-3940256099942544/5224354917",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "4a4aa737-dc0e-4fab-8435-3c539ec06530",
+                            "thunkableVersion": 423,
+                            "name": "AdMob_Rewarded_Video1"
+                        }
+                    ]
                 }
             },
             "assets": {},
@@ -122,10 +153,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -136,7 +164,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-1255068793170735/5599074988",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -171,10 +199,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -185,11 +210,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-1255068793170735/5599074988",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
